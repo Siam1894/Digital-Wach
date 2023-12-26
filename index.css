@@ -1,0 +1,76 @@
+body{
+    color: white;
+    margin: 0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-color: black;
+}
+
+.hed{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 22px;
+    text-align: center;
+    color: aqua;
+}
+.clock{
+    display: flex;
+    gap: 20px; 
+    margin: 8px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+}
+.div1{
+    border: 3px solid;
+    margin: 4px;
+    padding: 8%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 20px 40px -12px blue;
+    color: blue;
+    font-weight: 800;
+    
+}
+.div2{
+    border: 3px solid;
+    margin: 4px;
+    padding: 8%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 20px 40px -12px orange;
+    color: orange;
+    font-weight: 800;
+}
+.div3{
+    border: 3px solid;
+    margin: 4px;
+    padding: 8%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 20px 40px -12px fuchsia;
+    color: fuchsia;
+    font-weight: 800;
+
+}
+.div4{
+    text-align: center;
+    font-weight: 800;
+    color: rgb(54, 157, 9);
+}
+
+
+#hour{
+   font-size: 22px;
+}
+
+#minuts{
+   font-size: 22px;
+}
+
+#seconds{
+   font-size: 22px;
+}
